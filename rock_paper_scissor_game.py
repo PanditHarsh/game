@@ -22,7 +22,7 @@ def game(comp,you):
         elif you=='p':
             return False
 
-print("Comp turn: rock , paper or scissor ?")
+print("Computer turn: rock , paper or scissor ?")
 randguess = random.randint(1,3)
 
 if randguess==1:
